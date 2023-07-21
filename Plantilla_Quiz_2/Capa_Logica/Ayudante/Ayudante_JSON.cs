@@ -28,6 +28,7 @@ namespace Capa_Logica.Ayudante
             try
             {
                 T modelo = JsonSerializer.Deserialize<T>(json);
+
                 return modelo;
             }
             catch (Exception e)
